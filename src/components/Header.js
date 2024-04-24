@@ -9,7 +9,4 @@ function Header(props) {
   );
 }
 
-//screen.debug();
-//expect(screen.queryByText("hello from the Header!")).toBeInTheDocument();
-
 export default Header;

@@ -1,10 +1,7 @@
 import React from "react";
 
 function Article() {
-  return <div>Please pass this text</div>;
+  return <div><p>please pass this test</p></div>;
 }
-
-screen.debug();
-expect(screen.queryByText("please pass this test")).toBeInTheDocument();
 
 export default Article;
